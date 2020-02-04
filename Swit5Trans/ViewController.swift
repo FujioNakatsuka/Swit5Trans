@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         
         label.text = String(count)
        
-        if count == 10{
+        if count == 11{
        
 //            performSegue(withIdentifier: "next", sender: nil)
         let nextVC = storyboard?.instantiateViewController(withIdentifier: "next") as! nextViewController
